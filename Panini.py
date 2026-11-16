@@ -51,3 +51,25 @@ print(mine & friend)
 print(mine - friend)
 
 print(mine ^ friend)
+
+#dictionary task
+
+words = {"book" : "książka", 
+         "dog": "pies",
+        "potato": "ziemniak", 
+        "water": "woda"}
+
+print(words["book"])
+print(len(words))
+
+words["window"] = "okno"
+words["dog"] = "piesek"
+print(words)
+
+words.update({"phone": "telefon", 
+              "table" : "stół"})
+print(words)
+
+print(list(words.keys()))
+print(list(words.values()))
+print(list(words.items()))
