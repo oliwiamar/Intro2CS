@@ -38,3 +38,16 @@ city_list = list(city)
 city_list[1] = "Latvia"
 city = tuple(city_list)
 print(city)
+
+#sets task
+
+mine = {"chicken", "sushi", "pasta", "beetroot", "mozarella"}
+friend = {"tofu", "sushi", "pizza", "tomatoes", "pasta"}
+
+print(mine | friend)
+
+print(mine & friend)
+
+print(mine - friend)
+
+print(mine ^ friend)
