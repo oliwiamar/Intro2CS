@@ -28,3 +28,21 @@ elif language == "French":
     print("salut")
 else:
     print("I do not know this language yet")
+
+word = "pastry"
+
+irregulars = {"child" : "children",
+     "foot": "feet",
+     "mouse": "mice"}
+
+vowels = ("a", "e", "i", "o", "u")
+
+if word in irregulars:
+    plural = irregulars[word]
+elif word[-1] in ("s","x", "z"):
+    plural = word + "es"
+elif word[-1] == "y" and word [-2] not in vowels:
+    plural = word[:-1] + "ies"
+else:
+    plural = word + "s"
+print(word, "->", plural)
