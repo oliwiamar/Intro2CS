@@ -13,3 +13,18 @@ if day == "Sat":
     print("Weekend price")
 else:
     print("Weekday price")
+
+
+language = "Latin"
+if language == "English":
+    print("hello")
+elif language == "Spanish":
+    print("hola")
+elif language == "Polish":
+    print("cześć")
+elif language == "German":
+    print("halo")
+elif language == "French":
+    print("salut")
+else:
+    print("I do not know this language yet")
